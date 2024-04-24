@@ -1,0 +1,452 @@
+
+.flex
+{
+    display: flex !important;
+    justify-content: end;
+}
+.collapse:not(.show)
+{
+    display: none !important;
+}
+.padding
+{
+    padding: 20px 100px !important;
+}
+.hero
+{
+    height: 100vh;
+    position: relative;
+    color: #fff;
+}
+.hero-img
+{
+    background-image: url(./assests/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+ 
+}
+.background-2  
+{
+    background: rgba(0, 0, 0, 0.2);
+}
+.font-size
+{
+    font-size: 72px;
+}
+.text span
+{
+    position: relative;
+    font-size: 30px;
+    animation: typing 4s ease-in-out infinite;
+    overflow: hidden;
+    width: 100%;
+}
+.border
+{
+    border-radius: 10px ;
+}
+.font-family
+{
+    font-family: 'Montserrat';
+}
+.list-style-none
+{
+    list-style: none;
+}
+.skill li
+{
+    margin: 10px 0;
+    padding: 10px;
+}
+.bar
+{
+    background: #cde1f8;
+    display: block;
+    height: 12px;
+    border: 1px solid lightgray;
+    
+    overflow: hidden;
+}
+.bar span
+{
+    height: 20px;
+    float: left;
+    background-color: #0078FF;
+}
+.HTML
+{
+    width: 85%;
+}
+.CSS
+{
+    width: 75%;
+}
+.JavaScript
+{
+    width: 90%;
+}
+.under::before
+{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100px;
+    top: 45px;
+    background-color: #0078FF;
+}
+.text-p
+{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.font-size48
+{
+    font-size: 48px;
+}
+.pos
+{
+    position: relative;
+}
+.under-2  {
+    
+    margin: auto;
+    width: 40px;
+    height: 5px;
+    top: 0px;
+    text-align: center;
+    background-color: #0078FF;
+}
+.border-rounded
+{
+    border: 10px solid #0078FF;
+    border-radius: 50%;
+}
+.icon
+{
+    width: 120px;
+    height: 120px;
+}
+.card
+{
+    background-color: white;
+}
+.box-shadow
+{
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+}
+.back-color
+{
+    background-color: #f5f5f5;
+}
+.rounded-card
+{
+    border-radius: 50px !important;
+} .padding-2
+{
+    padding: 12px;
+}
+.hero-2 
+{
+    position: relative;
+    background-image: url(./assests/counters-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    
+
+}
+.overlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+    background-color:#0078ff ;
+}
+.icon-2
+{
+    width: 80px !important;
+    height: 80px !important;
+}
+.border-rounded2
+{
+    border: 10px solid #CDE1F8;
+    border-radius: 50%;
+}
+.font-size12
+{
+    font-size: 12.8px;
+}
+
+.hero-3
+{
+    position: relative;
+    background-image: url(./assests/overlay-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    
+
+}
+.img-width
+{
+    width: 150px;
+    height: 150px;
+}
+.margin
+{
+    margin: 0px auto;
+}
+
+.border-50
+{
+    border-radius: 50%;
+}
+.padding-p
+{
+    padding: 20px 150px 40px 150px;
+}
+.img-size-2
+{
+    width: 32px;
+    height: 32px;
+}
+.hero-4
+{
+    position: relative;
+    background-image: url(./assests/overlay-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    
+
+}
+.font-size32
+{
+    font-size: 32px;
+}
+.input-field
+{
+    width: 100%;
+    padding: 10px;
+}
+.input-border
+{
+    border: 1px solid lightgray;
+}
+.hero-5
+{
+    position: relative;
+    background-image: url(./assests/overlay-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    
+
+}
+.under-3::before
+{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 100px;
+    top: 40px;
+    background-color: #0078FF;
+}
+.font-size-5
+{
+    font-size: 20px;
+}
+.line
+{
+    line-height: 1.5;
+}
+.rounded-social
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50% !important;
+    border: 4px solid #0078FF;
+}
+.social
+{
+    top: 22px;
+    left: -4px;
+}
+.footer-bg-color
+{
+    background-color: #0062d3;
+}
+.padding-contact
+{
+    padding: 40px;
+}
+.padding-4
+{
+    padding: 3rem !important;
+}
+@media (min-width:1024px) and (max-width:1200px) {
+    
+}
+@media (min-width:768px) and (max-width:1024px)
+{
+    .card-group
+    {
+        flex-direction: column !important;
+        flex-wrap: wrap;
+        margin: 10px auto !important;
+    }
+    .border 
+    {
+        width: 100px !important;
+    }
+   
+}
+@media (min-width:481px) and (max-width:768px)
+{
+    .card-group
+    {
+        flex-direction: column !important;
+        flex-wrap: wrap;
+        margin: 10px auto !important;
+    }
+    .blue-1
+    {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .res-padding
+    {
+        padding: 0px !important;
+    }
+    .info
+    {
+        margin: 20px 0px !important;
+    }
+    .padding-p
+    {
+        width: 100%;
+        padding: 10px !important;
+        margin: 40px 0px !important;
+    }
+    .padding
+    {
+        padding: 20px;
+    }
+    .padding-4
+    {
+        padding: 2rem;
+    }
+
+}
+@media (min-width:300px) and (max-width:481px)
+{
+    .card-group
+    {
+        
+        margin: 10px auto !important;
+    }
+    .blue-1
+    {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .info
+    {
+        margin: 20px 0px !important;
+    }
+    .info p
+    {
+        font-size: 15px;
+    }
+    .res-padding
+    {
+        padding: 0 !important;
+    }
+    .font-size
+    {
+        font-size: 45px;
+        text-align: center;
+    }
+    .font-size48
+    {
+        font-size: 40px;
+    }
+    .padding-p
+    {
+        width: 100%;
+        padding: 10px !important;
+        margin: 40px 0px !important;
+    }
+    .padding
+    {
+        padding: 20px !important;
+    }
+    .font-size32
+    {
+        font-size: 20px;
+    }
+    .padding-4
+    {
+        padding: 15px !important;
+    }
+  
+    .under-3::before
+    {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 100px;
+    top: 30px;
+    background-color: #0078FF;
+    }
+    .padding-contact
+    {
+        padding: 60px 20px ;
+    }
+}
+
+
+
+@keyframes typing 
+{
+    0%
+    {
+        width: 0;
+    }
+    25%
+    {
+        width: 50%;
+    }
+    50%
+    {
+        width: 100%;
+    }
+    80%
+    {
+        width: 50%;
+    }
+    85%
+    {
+        width: 100%;
+    }
+    100%
+    {
+        width: 0%;
+    }
+  
+   
+
+}
