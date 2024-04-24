@@ -297,6 +297,10 @@
 {
     padding: 3rem !important;
 }
+.width25
+{
+    width: 25% ;
+}
 @media (min-width:1024px) and (max-width:1200px) {
     .btn-width
     {
@@ -351,6 +355,10 @@
     .padding-4
     {
         padding: 2rem;
+    }
+    .width25
+    {
+        width: 100% !important;
     }
 
 }
@@ -418,6 +426,10 @@
     .padding-contact
     {
         padding: 60px 20px ;
+    }
+    .width25
+    {
+        width: 100% !important;
     }
 }
 
