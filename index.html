@@ -17,9 +17,9 @@
 </head>
 <body>
     <header>
-        <nav class=" padding background-2  opacity-100  navbar fixed-top navbar-dark navbar-expand-lg d-flex justify-content-end ">
+        <nav class="  padding background-2  opacity-100  navbar fixed-top navbar-dark navbar-expand-lg d-flex justify-content-end ">
             <div class="container-fluid  ">
-              <a class="navbar-brand fs-2 text-light" href="#">DevFolio</a>
+              <a class="navbar-brand fs-2 text-light logo" href="#">DevFolio</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -551,6 +551,13 @@
                 </div>
               </div>
             </footer>
+            <script type="text/JavaScript">
+              window.addEventListener("scroll", function(){
+                var nav = document.querySelector("nav");
+                nav.classList.toggle("sticky", window.scrollY > 0);
+                
+              })
+            </script>
 
 
 
