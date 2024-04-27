@@ -337,6 +337,25 @@
     width: 100px;
     
 }
+.tran
+{
+    transition: all 0.9s ease-in-out;
+}
+.tran:hover
+{
+    cursor: pointer;
+    transform: rotate(360deg) ;  
+}
+.hov .border-rounded :hover
+{
+    border: 10px solid violet;
+    border-radius: 50%;
+    z-index: 1;
+   
+
+
+}
+
 
 nav.sticky
 {
